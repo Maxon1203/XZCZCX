@@ -1,0 +1,236 @@
+body{
+    background-color: rgb(48,48,48);
+    color: rgb(235, 235, 232);
+}
+.n{
+    background-image: url('/dist/src/img/forest.jpg');
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 134.19%;
+    letter-spacing: 0.21em;
+}
+.Li{
+    background-color: rgb(152, 152, 152);
+    height: 2px;
+    margin-top: 42px;
+}
+.Ti{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 134.19%;
+    letter-spacing: 0.21em;
+    margin-top: 302px;
+}
+.history{
+    margin-top: 42px;
+}
+.tour{
+    margin-top: 42px;
+}
+.kon{
+    margin-top: 42px;
+    margin-bottom: 296px;
+}
+.h{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 167.69%;
+    background: #A39782;
+}
+.tx{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-bottom: 15px;
+}
+.foto1{
+    margin-top: 10px;
+    margin-bottom: 55px;
+    width: 533px;
+    height: 399.75px;
+    filter: drop-shadow(7px 6px 4px rgba(0, 0, 0, 0.25));
+}
+.foto2{
+    margin-top: 10px;
+    margin-bottom: 55px;
+    width: 507px;
+    height: 348.56px;
+    filter: drop-shadow(7px 6px 4px rgba(0, 0, 0, 0.25));
+}
+.foto3{
+    margin-top: 10px;
+    margin-bottom: 55px;
+    width: 479px;
+    height: 368.83px;
+    filter: drop-shadow(7px 6px 4px rgba(0, 0, 0, 0.25));
+}
+.f{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 134.19%;
+    /* or 24px */
+    
+    color: rgb(235, 235, 232);
+}
+.f1{
+    margin-top: 30px;
+    margin-left: 52px;
+}
+.f2{
+    margin-top: 30px;
+}
+.f3{
+    margin-left: 82px;
+    margin-top: 11px;
+}
+.f4{
+    margin-top: 11px;
+}
+
+.f5{
+    margin-left: 82px;
+}
+.f7{
+    margin-top: 11px;
+    margin-left: 82px;
+}
+.f8{
+    margin-left: 82px;
+}
+
+.f9{
+    margin-top: 22px;
+}
+.f10{
+    margin-top: 11px;
+    margin-left: 82px;
+}
+.f11{
+    margin-top: 22px;
+}
+
+.f12{
+    margin-top: 11px;
+    margin-left: 82px;
+    margin-bottom: 60px;
+}
+.pop_up{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #000;
+    z-index: 2;
+}
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up_body{
+    margin: auto;
+    width: 396px;
+    height: 562px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+    background: #A39782;
+    border: 11px solid #827E6F;
+    box-sizing: border-box;
+    border-radius: 54px;
+}
+
+.pop_up_body input{
+    display: block;
+    margin-left: 33px;
+
+    margin-top: 30px;
+
+    width: 275px;
+    height: 45px;
+    padding: 17px 20px;
+    background: #9A8E78;
+    border-radius: 10px;
+    border: none;
+    font-family: Prompt;
+    color: rgb(235, 235, 232);
+}
+
+.pop_up_body input:focus{
+    outline: none;
+}
+.pop_up_body button:focus{
+    outline: none;
+}
+
+.pop_up_body button{
+    cursor: pointer;
+    display: block;
+    width: 266px;
+    height: 61px;
+    margin: 0px auto 10px auto;
+    
+    font-family: Prompt;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+
+    color: #B2D950;
+    background: #827E6F;
+    border: 2px solid #B2D950;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.pop_up.active{
+    display: block;
+}
+
+.button_clouse{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size:21px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: grey;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+    border: 1.5px solid #B2D950;
+}
+
+p{
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #B2D950;
+    margin-bottom: 90px;
+}
+a{
+    text-decoration:none;
+    color: rgb(235, 235, 232);   
+}
+a:hover{
+    color: rgb(199, 199, 198); 
+}

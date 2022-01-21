@@ -1,0 +1,27 @@
+{
+  "name": "pp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@frangiskos/mssql": "^0.4.0",
+    "expres": "^0.0.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "msnodesqlv8": "^2.4.0",
+    "mssql": "^4.0.4",
+    "mssql2": "^3.3.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.7.0",
+    "socket.io": "^4.3.1",
+    "tedious": "^14.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

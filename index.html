@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/dist/src/css/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container-fluid n">
+        <div class="row">
+          <div class="col Ti" align="center">Школа №654</div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 Li"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col history" align="center" id="login"> <a href="#">Войти</a> </div>
+        </div>
+        <div class="row">
+            <div class="col history" align="center" id="history"> <a href="#">История</a> </div>
+        </div>
+        <div class="row">
+            <div class="col tour" align="center" id="tour"> <a href="#">Виртуальная Экскурсия</a></div>
+        </div>
+        <div class="row">
+            <div class="col kon" align="center" id="kon"> <a href="#">Наши контакты</a> </div>
+        </div>
+    </div>
+
+    <div class="container-fluid h" id="m2">
+        <div class="row">
+          <div class="col-6 tx">
+               <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 tx">
+                        Школа была открыта 2 октября 1939 г. в районе Текстильщики.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">
+                        С осени 1941 г. в связи с началом Великой Отечественной войны и до начала 1942 г. учебный процесс в школе прекратился.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">
+                        В 1967 году закончилось строительство второго здания школы, построенного силами учеников и учителей.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">В 1989 году было построено третье здание школы.</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">В 1969 году перед зданием школы был установлен Памятник Мальчишу-Кибальчишу.</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">В 1991 году школа получила статус гимназии с номером 1510.</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">В 2000 году с целью сохранения подразделения начальной школы аккредитуется как Центр образования № 654.</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">В 2008 году школе было присвоено имя Анатолия Давыдовича Фридмана, заслуженного учителя РСФСР, бывшего её директором в течение сорока лет (1965—2005 годы).</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">С 2013 года школа становится образовательным комплексом, в состав которого вошли 3 школы и 5 детских садов. Полное наименование: Государственное бюджетное образовательное учреждение города Москвы центр образования № 654 имени А. Д. Фридмана.</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 tx">С 2015 года вернула себе статус Центра образования.</div>
+                </div>
+               </div>
+          </div>
+          <div class="col-5"><img class="foto1" src="https://w-dog.ru/wallpapers/11/4/364838837450191/les-xvoya-derevya-polyana-dymka.jpg" alt=""> <img class="foto2" src="https://w-dog.ru/wallpapers/11/4/364838837450191/les-xvoya-derevya-polyana-dymka.jpg" alt=""> <img class="foto3" src="https://w-dog.ru/wallpapers/11/4/364838837450191/les-xvoya-derevya-polyana-dymka.jpg" alt=""></div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="container-fluid f" id="m4">
+        <div class="row">
+          <div class="col-4 f1" >Наш адрес</div>
+          <div class="col-2 f2">Контактные данные</div>
+        </div>
+        <div class="row">
+            <div class="col-4 f3" >Адрес:</div>
+            <div class="col-2 f4" >Директор</div>
+        </div>
+        <div class="row">
+            <div class="col-4 f5" >109129, город Москва, улица Юных Ленинцев, дом 35, корпус 2</div>
+            <div class="col-2" >Видякин Сергей Львович VidyakinSL@Edu.mos.ru +7 (499) 444-76-54 +7 (916) 712-45-89</div>
+        </div>
+        <div class="row">
+            <div class="col-4 f7">Станция метро:</div>
+            <div class="col-4 f9">Секретарь </div>
+        </div>
+        <div class="row">
+            <div class="col-4 f8">Текстильщики</div>
+            <div class="col-2">Кузьмина Наталья Васильевна +7 (499) 444-76-54 Добавочный: 2222</div>
+        </div>
+        <div class="row">
+            <div class="col-4 f10">Как нас найти:</div>
+            <div class="col-2 f11">Адрес электронный почты:</div>
+        </div>
+        <div class="row">
+            <div class="col-4 f12">м."Текстильщики", последний вагон из центра; троллейбусом № 27 или № 38 до ост."Улица Малышева"; перейти через дорогу и идти метров 300 по направлению движения троллейбуса; во дворе - трехэтажное здание школы</div>
+            <div class="col-2">654@edu.mos.ru</div>
+        </div>
+        
+    </div>
+    
+
+    <div class="pop_up active" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body">
+                <p>Авторизация</p>
+                <form action="">
+                    <input type="text" placeholder="Login" id="login">
+                    <input type="text" placeholder="Password" id="password">
+                    <input type="text" placeholder="Official" id="offical">
+                    <br>
+                    <button id="clouse_pop_up">Войти</button>
+                </form>
+                <div class="button_clouse" id="buttonclouse_pop_up">&#10006</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="/dist/src/js/user.js"></script>
+</body>
+
+</html>
